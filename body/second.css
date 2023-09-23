@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Righteous&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.belakang{
+    background-color: #fdfbfb;
+    height: 800px;
+}
+.setengah-lingkaran{
+    width: 100%;
+    height:300px;
+    background-color: #f9ea85;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+nav{
+    background-color: #f9ea85;
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 100;
+}
+nav .back{
+    font-family: Righteous;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 25px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    padding-left: 25px;
+}
+.first-word{
+    font-size: 25px;
+    font-family: Righteous;
+}
+.second-word{
+    font-size: 13px;
+    margin-top: 5px;
+    font-family: Righteous;
+}
+img{
+    width: 35%;
+    height: auto;
+}
+.list-habits{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    gap: 25px;
+}
+.box-1{
+    width: 90%;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    padding: 4%;
+    align-items: center;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.box-1:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    transition: 0.8s
+}
+.cover-text1{
+    margin-left: 20px;
+    letter-spacing: ;
+}
+.text-1a{
+    font-size: 25px;
+    font-family: Righteous;
+}
+.text-2a{
+    font-size: 15px;
+    font-family: Acme;
+    color: rgb(98, 100, 101);
+}
+.box-1 img{
+    width: 25%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
